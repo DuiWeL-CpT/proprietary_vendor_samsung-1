@@ -15,10 +15,19 @@
 LOCAL_PATH := vendor/samsung/i9300
 
 PRODUCT_COPY_FILES += \
+<<<<<<< HEAD
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
+=======
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
+
+PRODUCT_COPY_FILES += \
+>>>>>>> a57de99... i9300: switch to opensource sensor hal
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 
 PRODUCT_COPY_FILES += \
